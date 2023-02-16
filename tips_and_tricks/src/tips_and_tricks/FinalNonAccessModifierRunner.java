@@ -15,7 +15,8 @@ class SomeClass {
 }
 
 class ExtendsClass extends SomeClass {
-
+	@Override
+	public void doSomething();
 }
 
 public class FinalNonAccessModifierRunner {
